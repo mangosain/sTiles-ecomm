@@ -8,21 +8,22 @@ const Checkout = () => {
 
     return (
         <div className='checkout-container'>
+            <h1>Cart</h1>
             <div className='checkout-header'>
                 <div className='header-block'>
                     <span>Product</span>
                 </div>
                 <div className='header-block'>
-                    <span>Description</span>
+                    <span>Desc.</span>
                 </div>
                 <div className='header-block'>
-                    <span>Quantity</span>
+                    <span>Qty.</span>
                 </div>
                 <div className='header-block'>
                     <span>Price</span>
                 </div>
                 <div className='header-block'>
-                    <span>Remove</span>
+                    <span></span>
                 </div>
             </div>
                 {
