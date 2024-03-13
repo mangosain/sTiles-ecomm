@@ -1,0 +1,37 @@
+.navigation {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+  border-bottom: 1px solid #e6e6e6;
+  align-items: center;
+  padding: 0 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  .logo-container {
+    width: 55px;
+  }
+
+  .nav-links-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .nav-link {
+      margin-left: 20px;
+      cursor: pointer;
+    }
+  }
+}
+
+
+@media screen and (max-width: 468px) {
+  .navigation {
+    .nav-links-container {
+      width: 90%;
+    }
+  }
+}
